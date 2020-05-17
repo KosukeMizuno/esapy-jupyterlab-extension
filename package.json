@@ -1,18 +1,18 @@
 {
-  "name": "@wallneradam/run_all_buttons",
-  "version": "0.2.0",
-  "description": "Add 'Run all' and 'Restart kernel and run all' buttons into the toolbar",
+  "name": "@KosukeMizuno/esapy-jupyterlab-extension",
+  "version": "0.1.0",
+  "description": "Add 'esa up' button into the toolbar",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/wallneradam/jupyterlab-run-all-buttons.git",
+  "homepage": "https://github.com/KosukeMizuno/esapy-jupyterlab-extension",
   "bugs": {
-    "url": "https://github.com/wallneradam/jupyterlab-run-all-buttons.git/issues"
+    "url": "https://github.com/KosukeMizuno/esapy-jupyterlab-extension/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Adam Wallner",
+  "author": "Kosuke Mizuno",
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
     "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
@@ -22,7 +22,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wallneradam/jupyterlab-run-all-buttons.git.git"
+    "url": "https://github.com/KosukeMizuno/esapy-jupyterlab-extension.git"
   },
   "scripts": {
     "build": "tsc",

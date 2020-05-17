@@ -1,4 +1,4 @@
-# @wallneradam/run_all_buttons
+# @KosukeMizuno/esapy-jupyterlab-extension
 
 Add 'Run all' and 'Restart kernel and run all' buttons into the toolbar
 
@@ -6,11 +6,12 @@ Add 'Run all' and 'Restart kernel and run all' buttons into the toolbar
 ## Prerequisites
 
 * JupyterLab
+* esapy
 
 ## Installation
 
 ```bash
-jupyter labextension install @wallneradam/run_all_buttons
+jupyter labextension install @KosukeMizuno/esapy-jupyterlab-extension
 ```
 
 ## Development

@@ -1,5 +1,5 @@
-const KEY = 'run_all_buttons';
-const PLUGIN_NAME = `@wallneradam/${KEY}`;
+const KEY = 'esapy-jupyterlab-extension';
+const PLUGIN_NAME = `@KosukeMizuno/${KEY}`;
 
 import { IDisposable, DisposableDelegate } from '@lumino/disposable';
 import { JupyterFrontEnd, JupyterFrontEndPlugin } from '@jupyterlab/application';
