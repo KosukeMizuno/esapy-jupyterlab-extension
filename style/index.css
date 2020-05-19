@@ -1,16 +1,8 @@
 /* Toolbar icons */
-.wll-RunAllIcon {
+.wll-EsaupIcon {
     background-color: var(--jp-inverse-layout-color3);
-    -webkit-mask-image: url(./fast_forward.svg);
-    mask-image: url(./fast_forward.svg);
-    -webkit-mask-size: contain;
-    mask-size: contain;
-}
-
-.wll-RestartRunAllIcon {
-    background-color: var(--jp-inverse-layout-color3);
-    -webkit-mask-image: url(./fast_froward_refresh.svg);
-    mask-image: url(./fast_froward_refresh.svg);
+    -webkit-mask-image: url(./esaup.svg);
+    mask-image: url(./esaup.svg);
     -webkit-mask-size: contain;
     mask-size: contain;
 }

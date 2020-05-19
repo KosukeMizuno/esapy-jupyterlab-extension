@@ -1,5 +1,5 @@
 {
-  "name": "@KosukeMizuno/esapy-jupyterlab-extension",
+  "name": "@kosukemizuno/esapy-jupyterlab-extension",
   "version": "0.1.0",
   "description": "Add 'esa up' button into the toolbar",
   "keywords": [
@@ -31,8 +31,9 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/application": "^2.0.0",
-    "@jupyterlab/notebook": "^2.0.0"
+    "@jupyterlab/application": ">=1.0.0",
+    "@jupyterlab/notebook": ">=1.0.0",
+    "@lumino/disposable": "*"
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
