@@ -1,4 +1,4 @@
-# @KosukeMizuno/esapy-jupyterlab-extension
+# @kosukemizuno/esapy-jupyterlab-extension
 
 Add 'Run all' and 'Restart kernel and run all' buttons into the toolbar
 

@@ -48,6 +48,11 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(`JupyterLab extension ${PLUGIN_NAME} is activated!`);
         // Register our extension
         app.docRegistry.addWidgetExtension('notebook', new EsapyButtons);
+        app.contextMenu.addItem({
+            selector: '.jp-Notebook',
+            command: 'esa: up',
+            rank: -0.5
+        });
     }
 };
 
